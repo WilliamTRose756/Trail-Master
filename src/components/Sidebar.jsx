@@ -1,8 +1,15 @@
+import { Box } from "@mui/material";
 
 function Sidebar() {
   return (
-    <div>Sidebar</div>
-  )
+    <Box
+      p={2}
+      flex={1}
+      sx={{ backgroundColor: "pink", display: { xs: "none", sm: "block" } }}
+    >
+      Sidebar
+    </Box>
+  );
 }
 
-export default Sidebar
+export default Sidebar;

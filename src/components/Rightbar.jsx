@@ -1,8 +1,15 @@
+import { Box } from "@mui/material";
 
 function Rightbar() {
   return (
-    <div>Rightbar</div>
-  )
+    <Box
+      sx={{ backgroundColor: "red", display: { xs: "none", sm: "block" } }}
+      flex={2}
+      p={2}
+    >
+      Rightbar
+    </Box>
+  );
 }
 
-export default Rightbar
+export default Rightbar;
