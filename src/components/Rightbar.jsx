@@ -7,7 +7,7 @@ function Rightbar() {
       flex={2}
       p={2}
     >
-      Rightbar
+      Latest Posts
     </Box>
   );
 }
